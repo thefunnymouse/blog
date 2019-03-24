@@ -4,13 +4,24 @@
  code {
    font-size: 13px !important;
    line-height: 1 !important;
+   padding: 5px !important;
  }
+
+
+ code.highlighter-rouge {
+  // background: #eef;
+    background: #f0f7f9 !important;
+  border-color: #0070c0 !important;
+}
+
 .highlight {
   background: #fff;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: #eef;
+      
+    background: #eeeeff !important;
+    border-color: #0070c0 !important;
   }
 
   .c     { color: #998; font-style: italic } // Comment
