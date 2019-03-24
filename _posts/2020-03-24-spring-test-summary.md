@@ -56,7 +56,24 @@ Dùng để test biểu thức boolean hoặc hàm trả về kiểu boolean, v�
 
 Dùng trong trường hợp hàm có kiểu void.
 
-`Mockito.verify(object.method())`
+`Mockito.verify(object).method()`
+
+_Áp dụng:_
+```java
+   @Test
+    @DisplayName("Delete - Existed")
+    public void testDelete() {
+        int id = 1;
+        when(accountRepository.existsById(id)).thenReturn(true);
+        doNothing().when(accountRepository).deleteById(id);
+
+        // gọi hàm cần test
+        accountService.delete(id);
+
+        // kiểm tra xem hàm deleteById có được gọi
+        verify(accountRepository).deleteById(id);
+    }
+```
 
 <br>
 
