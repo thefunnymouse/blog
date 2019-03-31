@@ -5,6 +5,7 @@
    font-size: 13px !important;
    line-height: 1 !important;
    padding: 5px !important;
+   background-color: unset !important;
  }
 
 
@@ -12,6 +13,7 @@
   // background: #eef;
     background: #f0f7f9 !important;
   border-color: #0070c0 !important;
+  // border-color: gray !important;
 }
 
 .highlight {
@@ -20,8 +22,10 @@
 
   .highlighter-rouge & {
       
-    background: #eeeeff !important;
-    border-color: #0070c0 !important;
+    background: #f8f8f8 !important;
+    // border-color: #0070c0 !important;
+    border-left: 2px solid #00a653;
+    border-radius: 0 !important;
   }
 
   .c     { color: #998; font-style: italic } // Comment
