@@ -8,8 +8,12 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-.post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
   margin-top: 35px;
+  // background-color: #f3f3f3;
+  // border-left: 1px solid lightgray;
+  // padding-left: 10px;
+  border-bottom: 1px solid lightgray;
 }
 
 #markdown-toc {
