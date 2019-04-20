@@ -15,11 +15,10 @@ dl, dd, ol, ul, figure {
 #markdown-toc {
   margin-left: 1em;
   font-size: 1.2em;
-}
-
-ul li {
-  list-style-type: decimal !important;
-}
+  li {
+    list-style-type: decimal !important;
+  }
+} 
 
 /**
  * Basic styling
