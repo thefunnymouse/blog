@@ -18,7 +18,12 @@ dl, dd, ol, ul, figure {
   li {
     list-style-type: decimal !important;
   }
-} 
+}
+
+p img {
+  box-shadow: 0 0 5px gray;
+  border-radius: 5px; 
+}
 
 /**
  * Basic styling
